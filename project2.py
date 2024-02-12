@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-"""Q1. Explain with an example each when to use a for loop and a while loop."""
+###Q1. Explain with an example each when to use a for loop and a while loop.
 
 Ans: 
     
@@ -18,8 +18,7 @@ Use a while loop when you don't know beforehand how many times you need to itera
 example:
 You want to keep reading user input until they type "quit".
 
-"""Q2. Write a python program to print the sum and product of the first 10 natural numbers using for
-and while loop."""
+###Q2. Write a python program to print the sum and product of the first 10 natural numbers using for and while loop.
 
 # Calculate sum
 sum_of_numbers = 0
@@ -57,8 +56,7 @@ print("The product of the first 10 natural numbers is:", product_of_numbers)
 
 
 ### Q3. Create a python program to compute the electricity bill for a household.
-"""
-The per-unit charges in rupees are as follows: For the first 100 units, the user will be charged Rs. 4.5 per
+"""The per-unit charges in rupees are as follows: For the first 100 units, the user will be charged Rs. 4.5 per
 unit, for the next 100 units, the user will be charged Rs. 6 per unit, and for the next 100 units, the user will
 be charged Rs. 10 per unit, After 300 units and above the user will be charged Rs. 20 per unit.
 You are required to take the units of electricity consumed in a month from the user as input.
@@ -80,7 +78,7 @@ else:
 print("Total electricity bill:", bill)
 
 
-"""Q4. Create a list of numbers from 1 to 100. Use for loop and while loop to calculate the cube of each
+""" Q4. Create a list of numbers from 1 to 100. Use for loop and while loop to calculate the cube of each
 number and if the cube of that number is divisible by 4 or 5 then append that number in a list and print
 that list."""
 
@@ -109,8 +107,7 @@ while num <= 100:
 
 print("Numbers from 1 to 100 whose cubes are divisible by 4 or 5 (using while loop):", cubes_divisible_by_4_or_5)
 
-"""Write a program to filter count vowels in the below-given string.
-string = "I want to become a data scientist""""
+###Write a program to filter count vowels in the below-given string. string = "I want to become a data scientist
 
 string = "I want to become a data scientist"
 vowels = "aeiou"
